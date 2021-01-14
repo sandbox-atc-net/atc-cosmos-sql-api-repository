@@ -1,15 +1,44 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <Title>Atc.Cosmos.Sql.Api.Repository</Title>
+    <Authors>atc-net</Authors>
+    <Description>A generic implementation of Repository Pattern in C# to Cosmos DB SQL API.</Description>
+    <PackageProjectUrl>https://github.com/atc-net/atc-cosmos-sql-api-repository/tree/main/src/Atc.CodingRules.Updater.CLI</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/atc-net/atc/master/images/icon.png</PackageIconUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/atc-net/atc-cosmos-sql-api-repository</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageId>Atc.Cosmos.Sql.Api.Repository</PackageId>
+    <AssemblyName>Atc.Cosmos.Sql.Api.Repository</AssemblyName>
+    <DebugType>embedded</DebugType>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IsPackable>true</IsPackable>
+    <PackAsTool>false</PackAsTool>
+    <TieredCompilation>true</TieredCompilation>
+    <IncludeSymbols>true</IncludeSymbols>
+    <DebugType>embedded</DebugType>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="C:\Users\dka\.nuget\packages\microsoft.azure.cosmos\3.16.0\contentFiles\any\netstandard2.0\ThirdPartyNotice.txt" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.16.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+		<PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.16.0" />
+    <None Include="..\..\images\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
