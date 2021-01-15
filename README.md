@@ -7,7 +7,7 @@
 
 ### Packages
 [![Github Version](https://img.shields.io/static/v1?logo=github&color=blue&label=github&message=latest)](https://github.com/orgs/atc-net/packages?repo_name=atc-cosmos-sql-api-repository)
-[![NuGet Version](https://img.shields.io/nuget/v/atc-cosmos-sql-api-repository.svg?logo=nuget)](https://www.nuget.org/profiles/atc-net)
+[![NuGet Version](https://img.shields.io/nuget/v/Atc.Cosmos.Sql.Api.Repository.svg?logo=nuget)](https://www.nuget.org/profiles/atc-net)
 
 ### Build Status
 ![Pre-Integration](https://github.com/atc-net/atc-cosmos-sql-api-repository/workflows/Pre-Integration/badge.svg)
