@@ -8,7 +8,7 @@
     <Title>Atc.Cosmos.Sql.Api.Repository</Title>
     <Authors>atc-net</Authors>
     <Description>A generic implementation of Repository Pattern in C# to Cosmos DB SQL API.</Description>
-    <PackageProjectUrl>https://github.com/atc-net/atc-cosmos-sql-api-repository/tree/main/src/Atc.CodingRules.Updater.CLI</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/atc-net/atc-cosmos-sql-api-repository/tree/main/src/Atc.Cosmos.Sql.Api.Repository</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/atc-net/atc/master/images/icon.png</PackageIconUrl>
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/atc-net/atc-cosmos-sql-api-repository</RepositoryUrl>
