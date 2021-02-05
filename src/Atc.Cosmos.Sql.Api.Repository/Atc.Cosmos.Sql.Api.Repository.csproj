@@ -1,36 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
     <Title>Atc.Cosmos.Sql.Api.Repository</Title>
-    <Authors>atc-net</Authors>
-    <Description>A generic implementation of Repository Pattern in C# to Cosmos DB SQL API.</Description>
-    <PackageProjectUrl>https://github.com/atc-net/atc-cosmos-sql-api-repository/tree/main/src/Atc.Cosmos.Sql.Api.Repository</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/atc-net/atc/master/images/icon.png</PackageIconUrl>
-    <PackageIcon>icon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/atc-net/atc-cosmos-sql-api-repository</RepositoryUrl>
     <PackageId>Atc.Cosmos.Sql.Api.Repository</PackageId>
-    <AssemblyName>Atc.Cosmos.Sql.Api.Repository</AssemblyName>
-    <IsPackable>true</IsPackable>
-    <PackAsTool>false</PackAsTool>
-    <TieredCompilation>true</TieredCompilation>
-    <Deterministic>true</Deterministic>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <Nullable>enable</Nullable>
-    <LangVersion>8.0</LangVersion>
+    <PackageTags>cosmos;cosmos-sql;netcore;repository;generic</PackageTags>
+    <Description>A generic implementation of Repository Pattern in C# to Cosmos DB SQL API.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.16.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\..\images\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
